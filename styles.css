@@ -1,0 +1,58 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for Nested Header */
+  .title {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .title h1 {
+    color: red;
+  }
+  
+  .title h2 {
+    color: green;
+  }
+  
+  .title h3 {
+    color: blue;
+  }
+  
+  /* Header Component Styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    font-size: 1rem;
+    width: 200px;
+  }
+  
+  .navigation a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navigation a:hover {
+    color: #007bff;
+  }
+  
